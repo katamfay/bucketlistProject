@@ -289,7 +289,6 @@ Materialize.objectSelectorString = function(obj) {
   return (tagStr + idStr + classStr).replace(/\s/g,'');
 };
 
-
 // Unique Random ID
 Materialize.guid = (function() {
   function s4() {
